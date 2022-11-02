@@ -1,5 +1,7 @@
 # Cooking timer
 
+<img src="./cookingTimer.jpg" alt="Image" width="auto">
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project 
 
