@@ -1,0 +1,66 @@
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(219, 113, 14, 0.521);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+#btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn{
+    margin-top: 200px;
+    background-color: rgba(169, 204, 12, 0.37);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 35px;
+    border-radius: 20px;
+    border: none;
+}
+
+#btn:hover {
+    background: linear-gradient(to right, #e2714e, #53b31b);
+    }
+
+a{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+}
+
+#myVideo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+@media all and (max-width: 800px){
+    h1{
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    #btn{
+        padding: 20px;
+        border-radius: 20px;
+    }
+    a {
+        font-size: 15px;
+    }
+}

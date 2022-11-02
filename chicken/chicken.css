@@ -1,0 +1,79 @@
+#myVideo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 231, 16, 0.13);
+    -webkit-backdrop-filter: blur(10px);
+    
+}
+
+h1{
+    font-size: 50px;
+    color: hsl(0, 99%, 39%);
+}
+
+p{
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+
+a{
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 35px;
+    color: rgb(184, 26, 26);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    background: linear-gradient(to right, #e2714e, #53b31b);
+    }
+
+#container-countdown{
+    display: flex;
+    justify-content: center;
+}
+
+#countdown{
+    font-size: 60px;
+    margin-top: 400px;
+    background-color: rgba(184, 167, 17, 0.644);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    color: rgb(202, 4, 4);
+}
+
+@media all and (max-width: 800px){
+    h1{
+        font-size: 30px;
+    }
+    
+    p, a {
+        font-size: 20px;
+    }
+
+    #myVideo{
+        object-position: 50ch;
+    }
+
+    #countdown{
+        font-size: 40px;
+        margin-top: 250px;
+        border-radius: 20px;
+        padding: 20px;
+        
+    } 
+}

@@ -1,0 +1,109 @@
+#myVideo{
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(126, 38, 184, 0.288);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+}
+
+a{
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 35px;
+    color: rgb(103, 11, 223);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    background: linear-gradient(to right, #c416e7, #53b31b);
+    }
+
+#container-countdown{
+    display: flex;
+    justify-content: center;
+}
+
+#countdown{
+    font-size: 60px;
+    margin-top: 450px;
+    background-color: rgba(126, 38, 184, 0.479);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+@media all and (max-width: 1280px){
+    #myVideo{
+        object-position: 50ch;
+    }
+    #countdown{
+        margin-top: 250px;
+    }
+}
+
+
+
+@media all and (max-width: 1024px){
+    #myVideo{
+        object-position: 100ch;
+    }
+
+    #countdown{
+        margin-top: 100px;
+    }
+    
+}
+
+
+@media all and (max-width: 1024px){
+    #countdown{
+        margin-top: 400px;
+    }
+    
+}
+
+@media all and (max-width: 800px){
+
+    h1{
+        font-size: 40px;
+    }
+    
+    p, a {
+        font-size: 25px;
+    }
+
+    #myVideo{
+        object-position: 140ch;
+    }
+
+    #countdown{
+        font-size: 40px;
+        margin-top: 250px;
+        padding: 20px;
+        
+    }
+    
+}
